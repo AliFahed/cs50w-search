@@ -62,6 +62,20 @@ a {
   object-fit: contain;
 }
 
+.images-text-wrapper {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.images-text {
+  position: absolute;
+  margin-left: 230px;
+  margin-top: 90px;
+  color: #4487f6;
+  font-size: 1.1rem;
+}
+
 .center-section {
   background: #202124;
   border: 1px solid grey;
@@ -90,33 +104,16 @@ a {
   outline: none;
   color: #fff;
   height: 25px;
-  width: 500px;
+  width: 470px;
   font-size: 1.2rem;
 }
 
 .voice-icon {
   width: 20px;
-  margin-left: 25px;
+  margin-left: 15px;
 }
 
-.bottom-section {
-  margin-top: 20px;
-}
-
-.google-search-link {
-  margin-right: 10px;
-  cursor: pointer;
-}
-
-.google-search-link,
-.feeling-lucky-link {
-  background: #303134;
-  padding: 10px 18px;
-  border: none;
-  border-radius: 5px;
-}
-
-.google-search-link:hover,
-.feeling-lucky-link:hover {
-  border: 1px solid grey;
+.google-lens-icon {
+  width: 20px;
+  margin-left: 20px;
 }
